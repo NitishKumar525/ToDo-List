@@ -1,5 +1,5 @@
 let todoList = [
-    {item: 'Buy milk', dueDate:'12-3-2024'},==============================
+    {item: 'Buy milk', dueDate:'12-3-2024'},=========================
     {item: 'Go to college', dueDate:'12-3-2024'},
     {item: 'Stationary', dueDate:'13-3-2024'},
     {item:'Lab manuals', dueDate:'14-3-2024'},
