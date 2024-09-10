@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="todo.css">
+  <head>
+    <link rel="stylesheet" href="todo.css" />
     <title>Todo List</title>
-</head>
-<body>
-    <h1 id="main-heading">Todo List</h1>
+  </head>
+  <body>
+    <div class="center">
+      <h1 id="main-heading">Todo List</h1>
 
-    <div class="grid-box">
-    <input id="todo-input" type="text" placeholder="Enter Your Todo here">
-    <input id="todo-date" type="date">
-    <button class="btn-todo" onclick="addTodo();">Add</button>
+      <div class="grid-box">
+        <input id="todo-input" type="text" placeholder="Enter Your Todo here" />
+        <input id="todo-date" type="date" />
+        <button class="btn-todo" onclick="addTodo();">Add</button>
+      </div>
+
+      <div class="todo-box grid-box"></div>
     </div>
-
-    <div class="todo-box grid-box"></div>
-
     <script src="todo.js"></script>
-
-</body>
+  </body>
 </html>

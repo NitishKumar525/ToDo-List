@@ -1,10 +1,13 @@
 body {
     font-family: Arial;
+    width: 100vw;
+    background-color: antiquewhite;
 }   
 
 #main-heading {
-    margin-left: 130px;
-    color: darkorange;
+    /* margin-left: 130px; */
+    color: blueviolet;
+    /* text-align: center; */
 }
 
 .grid-box {
@@ -41,7 +44,8 @@ body {
     cursor: pointer;
 }
 
-.new {
-    text-align: center;
+.center{
+    display: flex;
     align-items: center;
+    flex-direction: column;
 }
